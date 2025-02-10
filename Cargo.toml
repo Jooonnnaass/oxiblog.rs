@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0.95"
+clap = {version="4.5.28", features=["derive"]}
+pulldown-cmark = "0.12.2"
+serde = {version="1.0.217", features=["derive"]}
+serde_yaml = "0.9.34"
+walkdir = "2.5.0"
