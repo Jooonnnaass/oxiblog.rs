@@ -1,5 +1,4 @@
 ---
-slug: "md-to-sql-migrator"
 title: "Markdown to SQL Migration Tool"
 tags: ["Rust", "CLI", "Database"]
 release_date: "2025-02-10"

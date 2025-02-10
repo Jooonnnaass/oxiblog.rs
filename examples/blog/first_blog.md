@@ -1,5 +1,4 @@
 ---
-slug: "rust-web-development"
 title: "The Rise of Rust in Web Development"
 tags: ["Rust", "Web Development", "Axum"]
 release_date: "2025-02-10"

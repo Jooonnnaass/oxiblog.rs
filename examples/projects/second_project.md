@@ -1,5 +1,4 @@
 ---
-slug: "axum-static-blog"
 title: "Static Blog Generator with Axum"
 tags: ["Rust", "Axum", "Blog"]
 release_date: "2025-02-10"

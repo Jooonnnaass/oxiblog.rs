@@ -1,5 +1,4 @@
 ---
-slug: "tailwind-css-benefits"
 title: "Why Tailwind CSS is a Game Changer"
 tags: ["CSS", "Frontend", "Tailwind"]
 release_date: "2025-02-10"

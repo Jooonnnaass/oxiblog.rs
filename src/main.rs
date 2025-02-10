@@ -29,7 +29,6 @@ struct Args {
 
 #[derive(Deserialize, Debug)]
 struct Frontmatter {
-    slug: String,
     title: String,
     tags: Vec<String>,
     release_date: String,
@@ -105,7 +104,7 @@ fn parse_markdown(path: &Path, table: &str) -> anyhow::Result<String> {
     let sql = format!(
         "INSERT INTO {} (slug, title, tags, release_date, summary, image, html) VALUES ('{}', '{}', '{}', '{}', '{}', '{}', '{}');\n",
         table,
-        frontmatter.slug.replace("'", "''"),
+        frontmatter.title.to_lowercase().replace(" ", "-").replace("'", "''"),
         frontmatter.title.replace("'", "''"),
         frontmatter.tags.join(",").replace("'", "''"),
         frontmatter.release_date,
