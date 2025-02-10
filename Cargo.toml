@@ -2,6 +2,14 @@
 name = "oxiblog"
 version = "0.1.0"
 edition = "2021"
+authors = ["Jonas Winkelmann"]
+license = "MIT"
+description = "A tool to create a sql file to fill a database for your blog"
+readme = "README.md"
+homepage = "https://github.com/Jooonnnaass/oxiblog.rs"
+repository = "https://github.com/Jooonnnaass/oxiblog.rs"
+keywords = ["cli", "generation", "blog"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 anyhow = "1.0.95"
